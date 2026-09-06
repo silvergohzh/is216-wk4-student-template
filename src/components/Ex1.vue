@@ -3,7 +3,7 @@
 
     // Add code here
     // challenge: use array  
-    const message = ref("Choose your favourite fruit:")
+    const message = ref("Choose your favorite fruit:")
     const fruit = ref(['apple', 'orange', 'peach'])
     
 </script>

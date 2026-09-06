@@ -21,6 +21,9 @@
             blueBox.value = true
             blueBtn.value = true
         }
+
+        // blueBox.value = !blueBox.value
+        // blueBtn.value = !blueBtn.value
     }
 
     // part 2
@@ -42,7 +45,7 @@
     <!-- note: need to use single quotes '' for classes such as btn-primary which contains '-' signs
                 because '-' is a minus operator for (Vue) JavaScript  -->
     <div id="part1">
-        <div>
+        <div :id :class="{ 'blueBox': blueBox, 'redBox': !blueBox}">
             div ID : {{id}} 
         </div>
         
@@ -50,7 +53,7 @@
     </div>
 
     <div id="part2">
-        <div>
+        <div :style="{ color: activeColor}">
             div ID : {{id}} 
         </div>
        
