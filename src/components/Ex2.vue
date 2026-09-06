@@ -21,7 +21,7 @@
 
     <!-- Add code here -->
      
-    <img v-bind:src="me" v-bind:width="width" >
+    <img v-bind:src="me" v-bind:width="width" v-bind:height="height" >
 
     <img v-bind="v2">
      
