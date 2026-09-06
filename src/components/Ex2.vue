@@ -4,12 +4,14 @@
     // Add code here
 
     const me = ref('/assets/me.png')
-    const width = ref(200)
+    const width = ref(300)
+    const height = ref(200)
    
 
     const v2 = ref({
         src: '/assets/me.png',
-        width: 200,
+        width: 300,
+        height: 200
         
     })
 
