@@ -12,7 +12,7 @@
     const obj = ref({
         width: '200',
         height: '200',
-        src: '/assets/me.png'
+        src: '../../public/assets/me.png'
         
     })
 
