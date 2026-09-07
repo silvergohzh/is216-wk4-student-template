@@ -25,10 +25,7 @@
         <label>Email</label>
         <input placeholder="Enter your email address">
     </div>
-
-    <select v-model="loginType">
-
-    </select>
+ 
 
 </template>
 
