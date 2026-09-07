@@ -8,10 +8,11 @@
     const height = ref('200')
    
 
-    const v2 = ref({
-        src: '../assets/me.png',
+    // multiple attribute binding
+    const obj = ref({
         width: '200',
-        height: '200'
+        height: '200',
+        src: '/assets/me.png'
         
     })
 
@@ -23,7 +24,7 @@
      
     <img v-bind:src="me" v-bind:width="width" v-bind:height="height" >
 
-    <img v-bind="v2">
+    <img v-bind="obj">
      
 
 </template>
